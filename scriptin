@@ -1,0 +1,117 @@
+
+-- AimbotHub Loading
+-- Script has all of credits
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local TextButton = Instance.new("TextButton")
+local TextButton_2 = Instance.new("TextButton")
+local TextButton_3 = Instance.new("TextButton")
+local TextButton_4 = Instance.new("TextButton")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+Main.Name = "Main"
+Main.Parent = ScreenGui
+Main.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Main.BorderSizePixel = 0
+Main.Position = UDim2.new(0.745327115, 0, 0.069582507, 0)
+Main.Size = UDim2.new(0, 145, 0, 262)
+Main.Active = true
+Main.Draggable = true
+
+TextButton.Parent = Main
+TextButton.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+TextButton.Position = UDim2.new(0, 0, 0.138576388, 0)
+TextButton.Size = UDim2.new(0, 145, 0, 50)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "Aimbot"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextSize = 14.000
+
+TextButton_2.Parent = Main
+TextButton_2.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+TextButton_2.Position = UDim2.new(0, 0, 0.706809878, 0)
+TextButton_2.Size = UDim2.new(0, 145, 0, 50)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = "GunMods"
+TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.TextSize = 14.000
+
+TextButton_3.Parent = Main
+TextButton_3.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+TextButton_3.Position = UDim2.new(0, 0, 0.516104221, 0)
+TextButton_3.Size = UDim2.new(0, 145, 0, 50)
+TextButton_3.Font = Enum.Font.SourceSans
+TextButton_3.Text = "ESP"
+TextButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.TextSize = 14.000
+
+TextButton_4.Parent = Main
+TextButton_4.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+TextButton_4.Position = UDim2.new(0, 0, 0.327340275, 0)
+TextButton_4.Size = UDim2.new(0, 145, 0, 50)
+TextButton_4.Font = Enum.Font.SourceSans
+TextButton_4.Text = "HitBox"
+TextButton_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.TextSize = 14.000
+
+TextLabel.Parent = Main
+TextLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Size = UDim2.new(0, 145, 0, 36)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Aimbot HUB"
+TextLabel.TextColor3 = Color3.fromRGB(190, 190, 190)
+TextLabel.TextSize = 14.000
+
+TextLabel_2.Parent = Main
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0, 0, 0.896946549, 0)
+TextLabel_2.Size = UDim2.new(0, 145, 0, 36)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "discord.gg/aNRvRkgxCH"
+TextLabel_2.TextColor3 = Color3.fromRGB(190, 190, 190)
+TextLabel_2.TextSize = 14.000
+
+-- Scripts:
+
+local function YVDCJDS_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	script.Parent.MouseButton1Click:Connect((function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/wLvEpBGy"))()
+	end))
+end
+coroutine.wrap(YVDCJDS_fake_script)()
+local function AXESZXM_fake_script() -- TextButton_2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	script.Parent.MouseButton1Click:Connect((function()
+		loadstring(game:HttpGet("https://pastebin.com/ST9xiJdf"))() GUN
+	end))
+end
+coroutine.wrap(AXESZXM_fake_script)()
+local function KZUEOD_fake_script() -- TextButton_3.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_3)
+
+	script.Parent.MouseButton1Click:Connect((function()
+		loadstring(game:HttpGet(https://pastebin.com/ts15Cd2u"))()
+	end))
+end
+coroutine.wrap(KZUEOD_fake_script)()
+local function KANYPXC_fake_script() -- TextButton_4.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_4)
+
+	script.Parent.MouseButton1Click:Connect((function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/NhR4HMdr"))()
+	end))
+end
+coroutine.wrap(KANYPXC_fake_script)()
